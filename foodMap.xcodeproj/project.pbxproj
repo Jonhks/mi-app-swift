@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 		FB51767223A2ACB700C283E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB51767123A2ACB700C283E5 /* Assets.xcassets */; };
 		FB51767523A2ACB700C283E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB51767323A2ACB700C283E5 /* LaunchScreen.storyboard */; };
 		FB51767D23A2AD4800C283E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB51767C23A2AD4800C283E5 /* GoogleService-Info.plist */; };
+		FBC31E3D23A2F12E008BADE3 /* SalirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC31E3C23A2F12E008BADE3 /* SalirViewController.swift */; };
+		FBC31E3F23A2F895008BADE3 /* RegistrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC31E3E23A2F895008BADE3 /* RegistrarViewController.swift */; };
+		FBC31E4123A30202008BADE3 /* MuroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC31E4023A30202008BADE3 /* MuroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		FB51767423A2ACB700C283E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB51767623A2ACB700C283E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB51767C23A2AD4800C283E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FBC31E3C23A2F12E008BADE3 /* SalirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalirViewController.swift; sourceTree = "<group>"; };
+		FBC31E3E23A2F895008BADE3 /* RegistrarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarViewController.swift; sourceTree = "<group>"; };
+		FBC31E4023A30202008BADE3 /* MuroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuroViewController.swift; sourceTree = "<group>"; };
 		FD4173AAAB11845E5D017C1F /* Pods_foodMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foodMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -58,7 +64,6 @@
 				A37D261350A6D7C655FE5286 /* Pods-foodMap.debug.xcconfig */,
 				F939ADDB115574F35188AA42 /* Pods-foodMap.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -91,6 +96,9 @@
 				FB51767323A2ACB700C283E5 /* LaunchScreen.storyboard */,
 				FB51767C23A2AD4800C283E5 /* GoogleService-Info.plist */,
 				FB51767623A2ACB700C283E5 /* Info.plist */,
+				FBC31E3C23A2F12E008BADE3 /* SalirViewController.swift */,
+				FBC31E3E23A2F895008BADE3 /* RegistrarViewController.swift */,
+				FBC31E4023A30202008BADE3 /* MuroViewController.swift */,
 			);
 			path = foodMap;
 			sourceTree = "<group>";
@@ -230,8 +238,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB51766D23A2ACB200C283E5 /* ViewController.swift in Sources */,
+				FBC31E3F23A2F895008BADE3 /* RegistrarViewController.swift in Sources */,
 				FB51766923A2ACB200C283E5 /* AppDelegate.swift in Sources */,
+				FBC31E3D23A2F12E008BADE3 /* SalirViewController.swift in Sources */,
 				FB51766B23A2ACB200C283E5 /* SceneDelegate.swift in Sources */,
+				FBC31E4123A30202008BADE3 /* MuroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
