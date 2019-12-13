@@ -56,7 +56,7 @@ class RegistrarViewController: UIViewController {
             "correo": correoRegistro.text ?? "Sin correo",
             "telefono": telefonoRegistro.text ?? "Sin telefono",
             "contraseña": contraseñaRegistro.text ?? "Sin contraseña",
-            "idUser": Auth.auth().currentUser?.uid as Any
+            "idUser": Auth.auth().currentUser?.uid ?? "Sin datos"
         ]
 
         db.collection("users").addDocument(data: campos) { (error) in

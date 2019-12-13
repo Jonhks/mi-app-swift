@@ -18,6 +18,8 @@
 		FBC31E3D23A2F12E008BADE3 /* SalirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC31E3C23A2F12E008BADE3 /* SalirViewController.swift */; };
 		FBC31E3F23A2F895008BADE3 /* RegistrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC31E3E23A2F895008BADE3 /* RegistrarViewController.swift */; };
 		FBC31E4123A30202008BADE3 /* MuroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC31E4023A30202008BADE3 /* MuroViewController.swift */; };
+		FBC31E4323A400C1008BADE3 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC31E4223A400C1008BADE3 /* Users.swift */; };
+		FBC31E4523A4015F008BADE3 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC31E4423A4015F008BADE3 /* Posts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		FBC31E3C23A2F12E008BADE3 /* SalirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalirViewController.swift; sourceTree = "<group>"; };
 		FBC31E3E23A2F895008BADE3 /* RegistrarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarViewController.swift; sourceTree = "<group>"; };
 		FBC31E4023A30202008BADE3 /* MuroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuroViewController.swift; sourceTree = "<group>"; };
+		FBC31E4223A400C1008BADE3 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		FBC31E4423A4015F008BADE3 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
 		FD4173AAAB11845E5D017C1F /* Pods_foodMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foodMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -99,6 +103,8 @@
 				FBC31E3C23A2F12E008BADE3 /* SalirViewController.swift */,
 				FBC31E3E23A2F895008BADE3 /* RegistrarViewController.swift */,
 				FBC31E4023A30202008BADE3 /* MuroViewController.swift */,
+				FBC31E4223A400C1008BADE3 /* Users.swift */,
+				FBC31E4423A4015F008BADE3 /* Posts.swift */,
 			);
 			path = foodMap;
 			sourceTree = "<group>";
@@ -243,6 +249,8 @@
 				FBC31E3D23A2F12E008BADE3 /* SalirViewController.swift in Sources */,
 				FB51766B23A2ACB200C283E5 /* SceneDelegate.swift in Sources */,
 				FBC31E4123A30202008BADE3 /* MuroViewController.swift in Sources */,
+				FBC31E4323A400C1008BADE3 /* Users.swift in Sources */,
+				FBC31E4523A4015F008BADE3 /* Posts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
